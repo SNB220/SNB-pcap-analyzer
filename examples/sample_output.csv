@@ -1,0 +1,89 @@
+=== PCAP ANALYSIS SUMMARY ===
+Total Packets Analyzed,813
+Duration,0:03:20.146362
+First Packet,2025-09-07 09:32:19.526422
+Last Packet,2025-09-07 09:35:39.672784
+
+=== PROTOCOL STATISTICS ===
+Protocol,Packet Count,Percentage
+IP,721,47.14%
+TCP,577,37.71%
+UDP,124,8.11%
+ARP,60,3.92%
+Other,32,2.09%
+ICMP,16,1.05%
+
+=== SOURCE IPs ===
+IP Address,Classification,Location
+192.168.0.101 (LAN),Source,N/A
+57.144.213.33 (PUBLIC),Source,"Chennai, India"
+192.168.0.1 (LAN),Source,N/A
+239.255.255.250 (PUBLIC),Source,"Des Moines, United States"
+57.144.213.32 (PUBLIC),Source,"Chennai, India"
+
+=== DESTINATION IPs ===
+IP Address,Classification,Location
+192.168.0.101 (LAN),Destination,N/A
+57.144.213.33 (PUBLIC),Destination,"Chennai, India"
+192.168.0.1 (LAN),Destination,N/A
+239.255.255.250 (PUBLIC),Destination,"Des Moines, United States"
+57.144.213.32 (PUBLIC),Destination,"Chennai, India"
+
+=== TOP TALKERS (BY PACKETS) ===
+IP Address,Sent Packets,Received Packets,Total Packets,Sent Bytes,Received Bytes,Total Bytes
+192.168.0.101 (LAN),344,341,685,77669,77960,155629
+57.144.213.33 (PUBLIC),42,42,84,7209,7209,14418
+192.168.0.1 (LAN),32,31,63,10112,10112,20224
+239.255.255.250 (PUBLIC),29,28,57,14515,14515,29030
+57.144.213.32 (PUBLIC),26,25,51,3049,3049,6098
+
+=== TOP COMMUNICATION PAIRS ===
+Source IP,Destination IP,Total Packets,Total Bytes
+192.168.0.101 (LAN),57.144.213.33 (PUBLIC),84,14418
+192.168.0.101 (LAN),57.144.213.32 (PUBLIC),51,6098
+192.168.0.101 (LAN),34.149.211.227 (PUBLIC),43,21434
+192.168.0.101 (LAN),49.207.35.227 (PUBLIC),41,8663
+192.168.0.101 (LAN),34.120.85.253 (PUBLIC),39,12475
+
+=== TOP DESTINATION PORTS ===
+Port,Service,Packet Count
+443,HTTPS,302
+1900,Unknown,49
+51615,Unknown,29
+51626,Unknown,23
+51616,Unknown,21
+5222,Unknown,18
+80,HTTP,16
+51612,Unknown,15
+60898,Unknown,14
+57505,Unknown,14
+
+=== DNS ANALYSIS ===
+Source IP,Destination IP,Query/Response,Type
+192.168.0.101 (LAN),8.8.8.8 (PUBLIC),safebrowsing.googleapis.com,Query
+8.8.8.8 (PUBLIC),192.168.0.101 (LAN),Response,Answer
+192.168.0.101 (LAN),8.8.8.8 (PUBLIC),storeedgefd.dsx.mp.microsoft.com,Query
+8.8.8.8 (PUBLIC),192.168.0.101 (LAN),Response,Answer
+
+=== TOP DNS QUERIES ===
+Domain,Query Count
+safebrowsing.googleapis.com,4
+storeedgefd.dsx.mp.microsoft.com,4
+elb-ore-gcp.nimbus.bitdefender.net,4
+optimizationguide-pa.googleapis.com,4
+
+=== LOCAL MACHINE INFORMATION ===
+Type,IP Address
+Hostname,nabiel
+Resolved IPv4,192.168.0.106
+Private IPv4 (LAN),192.168.0.106
+IPv6 Link-Local,fe80::6768:1c41:d10a:caa
+APIPA (Fallback IPv4),169.254.31.250
+
+=== SUSPICIOUS TRAFFIC ANALYSIS ===
+Source IP,Destination IP,Port/Protocol,Reason,Protocol Type
+104.17.108.108 (PUBLIC),192.168.0.101 (LAN),49974,Unusual High Port,TCP
+104.17.107.108 (PUBLIC),192.168.0.101 (LAN),51101,Unusual High Port,TCP
+4.213.25.240 (PUBLIC),192.168.0.101 (LAN),49409,Unusual High Port,TCP
+192.168.0.101 (LAN),192.168.0.1 (LAN),ARP,ARP Spoofing Potential,ARP
+192.168.0.101 (LAN),Multiple,Multiple,Multiple Failed Connections - 8,TCP
