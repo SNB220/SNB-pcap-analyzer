@@ -74,10 +74,10 @@ optimizationguide-pa.googleapis.com,4
 
 === LOCAL MACHINE INFORMATION ===
 Type,IP Address
-Hostname,nabiel
+Hostname,SNB
 Resolved IPv4,192.168.0.106
 Private IPv4 (LAN),192.168.0.106
-IPv6 Link-Local,fe80::6768:1c41:d10a:caa
+IPv6 Link-Local,fe80::6768
 APIPA (Fallback IPv4),169.254.31.250
 
 === SUSPICIOUS TRAFFIC ANALYSIS ===
