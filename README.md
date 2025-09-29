@@ -186,12 +186,6 @@ Please use the [GitHub Issues](https://github.com/SNB220/SNB-pcap-analyzer/issue
 
 If you find this tool useful, please consider giving it a star on GitHub!
 
-## 📞 Support
-
-- 📧 Email: 
-- 💬 GitHub Discussions: [SNB PCAP Analyzer Discussions](https://github.com/yourusername/SNB-pcap-analyzer/discussions)
-- 📖 Documentation: [Wiki](https://github.com/SNB220/SNB-pcap-analyzer/wiki)
-
 ## 🎯 Use Cases
 
 - **Network Security Analysis**: Identify potential threats and attacks
