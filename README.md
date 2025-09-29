@@ -195,6 +195,44 @@ If you find this tool useful, please consider giving it a star on GitHub!
 - **Compliance Auditing**: Generate detailed network reports
 - **Forensic Analysis**: Investigate network incidents
 
+## 🌍 Geolocation API Configuration
+
+### Important: HTTP vs HTTPS API Access
+
+**Current Status**: The tool uses HTTPS for geolocation API calls for security.
+
+**Free API Limitation**: The free ip-api.com service only supports HTTP, not HTTPS. This means:
+- ✅ **With HTTPS (Current)**: More secure but geolocation won't work with free API
+- ⚠️ **With HTTP**: Geolocation works but less secure data transmission
+
+### Configuration Options
+
+#### Option 1: Keep HTTPS (Recommended for Sensitive Data) 🔒
+```python
+# Current setting in pcap_analyzer.py (line ~75)
+response = requests.get(f"https://ip-api.com/json/{ip}", timeout=2)
+```
+- **Pros**: Secure encrypted API calls
+- **Cons**: Geolocation feature won't work with free service
+
+#### Option 2: Use HTTP for Working Geolocation 🌍
+```python
+# Change line ~75 in pcap_analyzer.py to:
+response = requests.get(f"http://ip-api.com/json/{ip}", timeout=2)
+```
+- **Pros**: Geolocation feature works with free API
+- **Cons**: IP addresses sent unencrypted (minimal risk for most use cases)
+
+#### Option 3: Use Alternative HTTPS Service
+Consider using other geolocation APIs that support HTTPS in their free tier:
+- ipinfo.io (limited free requests)
+- ipgeolocation.io (with API key)
+
+### Recommendation
+For most users: **Use HTTP version** since IP addresses are not highly sensitive data, and you can always use `--no-geo` flag for sensitive analysis.
+
+To modify: Edit line ~75 in `pcap_analyzer.py` and change `https://` to `http://`
+
 ## ⚠️ Notes
 
 - Geolocation requests may take time for large numbers of public IPs
