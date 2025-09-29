@@ -6,8 +6,6 @@
 
 A professional network traffic analysis tool that provides comprehensive insights into PCAP/PCAPNG files with advanced security analysis, visualization, and reporting capabilities.
 
-![SNB PCAP Analyzer Demo](assets/demo-screenshot.png)
-
 ## 🚀 Features
 
 ### ✨ **Core Analysis Capabilities**
@@ -182,17 +180,11 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 🐛 Bug Reports & Feature Requests
 
-Please use the [GitHub Issues](https://github.com/yourusername/snb-pcap-analyzer/issues) page to report bugs or request new features.
+Please use the [GitHub Issues](https://github.com/SNB220/SNB-pcap-analyzer/issues) page to report bugs or request new features.
 
 ## ⭐ Star History
 
 If you find this tool useful, please consider giving it a star on GitHub!
-
-## 📞 Support
-
-- 📧 Email: your-email@example.com
-- 💬 GitHub Discussions: [SNB PCAP Analyzer Discussions](https://github.com/yourusername/snb-pcap-analyzer/discussions)
-- 📖 Documentation: [Wiki](https://github.com/yourusername/snb-pcap-analyzer/wiki)
 
 ## 🎯 Use Cases
 
