@@ -178,10 +178,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 🐛 Bug Reports & Feature Requests
-
-Please use the [GitHub Issues](https://github.com/SNB220/SNB-pcap-analyzer/issues) page to report bugs or request new features.
-
 ## ⭐ Star History
 
 If you find this tool useful, please consider giving it a star on GitHub!
