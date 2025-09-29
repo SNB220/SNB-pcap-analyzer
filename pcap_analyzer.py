@@ -91,11 +91,10 @@ def label_ip(ip, local_ip_values):
 # Well-known ports dictionary
 # ===============================
 WELL_KNOWN_PORTS = {
-    21: "FTP", 22: "SSH", 23: "Telnet", 25: "SMTP", 53: "DNS", 80: "HTTP",
-    110: "POP3", 143: "IMAP", 443: "HTTPS", 993: "IMAPS", 995: "POP3S",
-    3389: "RDP", 5432: "PostgreSQL", 3306: "MySQL", 1433: "MSSQL",
-    21: "FTP", 69: "TFTP", 123: "NTP", 161: "SNMP", 389: "LDAP",
-    636: "LDAPS", 1521: "Oracle", 5060: "SIP", 5061: "SIPS"
+    21: "FTP", 22: "SSH", 23: "Telnet", 25: "SMTP", 53: "DNS", 69: "TFTP", 80: "HTTP",
+    110: "POP3", 123: "NTP", 143: "IMAP", 161: "SNMP", 389: "LDAP", 443: "HTTPS",
+    636: "LDAPS", 993: "IMAPS", 995: "POP3S", 1433: "MSSQL", 1521: "Oracle",
+    3306: "MySQL", 3389: "RDP", 5060: "SIP", 5061: "SIPS", 5432: "PostgreSQL"
 }
 
 # ===============================
@@ -106,8 +105,8 @@ def get_geolocation(ip):
         return "N/A"
     
     try:
-        # Using a free IP geolocation service
-        response = requests.get(f"http://ip-api.com/json/{ip}", timeout=2)
+        # Using a free IP geolocation service with HTTPS for security
+        response = requests.get(f"https://ip-api.com/json/{ip}", timeout=2)
         if response.status_code == 200:
             data = response.json()
             if data['status'] == 'success':
