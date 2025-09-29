@@ -20,15 +20,12 @@ setup(
     name="snb-pcap-analyzer",
     version="1.0.0",
     author="SNB",
-    author_email="your-email@example.com",
     description="Professional network traffic analysis tool for PCAP/PCAPNG files",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/snb-pcap-analyzer",
+    url="https://github.com/SNB220/SNB-pcap-analyzer",
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/snb-pcap-analyzer/issues",
-        "Documentation": "https://github.com/yourusername/snb-pcap-analyzer/wiki",
-        "Source Code": "https://github.com/yourusername/snb-pcap-analyzer",
+        "Source Code": "https://github.com/SNB220/SNB-pcap-analyzer",
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
