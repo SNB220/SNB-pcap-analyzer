@@ -1,10 +1,14 @@
-# SNB PCAP Analyzer 🔍
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/yourusername/snb-pcap-analyzer)
-
-A professional network traffic analysis tool that provides comprehensive insights into PCAP/PCAPNG files with advanced security analysis, visualization, and reporting capabilities.
+<div align="center">
+  <img src="assets/logo.png" alt="SNB PCAP Analyzer Logo" width="400">
+  
+  # SNB PCAP Analyzer 🔍
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+  [![Version](https://img.shields.io/badge/version-1.0-green.svg)](https://github.com/SNB220/SNB-pcap-analyzer)
+  
+  **A professional network traffic analysis tool that provides comprehensive insights into PCAP/PCAPNG files with advanced security analysis, visualization, and reporting capabilities.**
+</div>
 
 ## 🚀 Features
 
