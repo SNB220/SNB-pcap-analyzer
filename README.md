@@ -14,24 +14,24 @@
 
 ### Core Analysis Capabilities
 
-1. ** Protocol Analysis**
+1. Protocol Analysis
    - Detailed breakdown of all protocols (TCP/UDP/ICMP/ARP/etc.)
    - Packet count and percentage distribution
    - Protocol-specific statistics
 
-2. ** Top Talkers Analysis**
+2. Top Talkers Analysis
    - Identifies hosts generating the most traffic
    - Sorting by packet count and data volume
    - Communication pair analysis
    - Bytes and packet statistics per IP
 
-3. ** Advanced Port Analysis**
+3. Advanced Port Analysis
    - Most accessed destination ports
    - Well-known service identification
    - Unusual/suspicious port detection
    - Port scanning detection
 
-4. ** Enhanced Threat Detection**
+4. Enhanced Threat Detection
    - Port scan detection (multiple ports from single source)
    - Failed connection analysis
    - Suspicious port usage detection
@@ -40,26 +40,26 @@
    - ICMP sweep detection
    - Amplification attack detection
 
-5. ** IP Geolocation**
+5. IP Geolocation
    - Geographic location for public IPs
    - Country and city identification
    - Location-based traffic analysis
    - Suspicious geographic patterns
 
-6. ** Traffic Timeline Analysis**
+6. Traffic Timeline Analysis
    - Capture duration and timing
    - Traffic patterns over time
    - Peak usage identification
    - Packets per second calculations
 
-7. ** DNS Analysis**
+7. DNS Analysis
    - DNS query and response extraction
    - Domain name statistics
    - DNS tunneling detection
    - Suspicious domain pattern analysis
    - Long domain name detection
 
-8. ** Visualization Features**
+8. Visualization Features
    - Protocol distribution pie charts
    - Top ports bar charts
    - Traffic timeline graphs
