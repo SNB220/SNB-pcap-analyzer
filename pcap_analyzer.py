@@ -10,7 +10,7 @@ reporting capabilities.
 Author: SNB
 Version: 1.0.0
 License: MIT
-Repository: https://github.com/yourusername/snb-pcap-analyzer
+Repository: https://github.com/SNB220/SNB-pcap-analyzer
 """
 
 import scapy.all as scapy
@@ -42,7 +42,7 @@ except ImportError:
 __version__ = "1.0.0"
 __author__ = "SNB"
 __license__ = "MIT"
-__repository__ = "https://github.com/yourusername/snb-pcap-analyzer"
+__repository__ = "https://github.com/SNB/SNB-pcap-analyzer"
 
 # ===============================
 # Get Local IP Addresses
