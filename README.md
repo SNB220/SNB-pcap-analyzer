@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/SNB Pcap Analyzerbg.png" alt="SNB PCAP Analyzer Logo" width="400">
   
-  # SNB PCAP Analyzer 🔍
+  # SNB PCAP Analyzer
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -10,28 +10,28 @@
   **A professional network traffic analysis tool that provides comprehensive insights into PCAP/PCAPNG files with advanced security analysis, visualization, and reporting capabilities.**
 </div>
 
-## 🚀 Features
+## Features
 
-### ✨ **Core Analysis Capabilities**
+###  **Core Analysis Capabilities**
 
-1. **📊 Protocol Analysis**
+1. ** Protocol Analysis**
    - Detailed breakdown of all protocols (TCP/UDP/ICMP/ARP/etc.)
    - Packet count and percentage distribution
    - Protocol-specific statistics
 
-2. **💬 Top Talkers Analysis**
+2. ** Top Talkers Analysis**
    - Identifies hosts generating the most traffic
    - Sorting by packet count and data volume
    - Communication pair analysis
    - Bytes and packet statistics per IP
 
-3. **🚪 Advanced Port Analysis**
+3. ** Advanced Port Analysis**
    - Most accessed destination ports
    - Well-known service identification
    - Unusual/suspicious port detection
    - Port scanning detection
 
-4. **🚨 Enhanced Threat Detection**
+4. ** Enhanced Threat Detection**
    - Port scan detection (multiple ports from single source)
    - Failed connection analysis
    - Suspicious port usage detection
@@ -40,26 +40,26 @@
    - ICMP sweep detection
    - Amplification attack detection
 
-5. **🌍 IP Geolocation**
+5. ** IP Geolocation**
    - Geographic location for public IPs
    - Country and city identification
    - Location-based traffic analysis
    - Suspicious geographic patterns
 
-6. **⏰ Traffic Timeline Analysis**
+6. ** Traffic Timeline Analysis**
    - Capture duration and timing
    - Traffic patterns over time
    - Peak usage identification
    - Packets per second calculations
 
-7. **🔍 DNS Analysis**
+7. ** DNS Analysis**
    - DNS query and response extraction
    - Domain name statistics
    - DNS tunneling detection
    - Suspicious domain pattern analysis
    - Long domain name detection
 
-8. **📈 Visualization Features**
+8. ** Visualization Features**
    - Protocol distribution pie charts
    - Top ports bar charts
    - Traffic timeline graphs
@@ -67,7 +67,7 @@
    - Geographic distribution charts
    - Suspicious activity summaries
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -92,7 +92,7 @@ pip install matplotlib
 pip install pandas numpy
 ```
 
-## 📋 Usage
+##  Usage
 
 ### Basic Analysis
 ```bash
@@ -114,7 +114,7 @@ python pcap_analyzer.py -o custom_report.csv your_file.pcapng
 python pcap_analyzer.py --no-geo --no-viz -o report.csv your_file.pcapng
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Terminal Output
 <div align="center">
@@ -130,7 +130,7 @@ python pcap_analyzer.py --no-geo --no-viz -o report.csv your_file.pcapng
   <img src="assets/pcap_analysis_charts.png" alt="Chart" width="500"/>
 
 
-## 📊 Output Features
+## Output Features
 
 ### Terminal Output
 - **Analysis Summary**: Total packets, duration, analysis time
@@ -164,7 +164,7 @@ When matplotlib is available:
 - Geographic distribution of external IPs
 - Suspicious activity type breakdown
 
-## 🔒 Security Analysis Features
+## Security Analysis Features
 
 ### Threat Detection
 - **Port Scanning**: Detects sources accessing many different ports
@@ -180,7 +180,7 @@ When matplotlib is available:
 - **LAN**: Private network traffic (192.168.x.x, 10.x.x.x, 172.16-31.x.x)
 - **PUBLIC**: Internet traffic with geolocation data
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -194,7 +194,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 If you find this tool useful, please consider giving it a star on GitHub!
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Network Security Analysis**: Identify potential threats and attacks
 - **Traffic Monitoring**: Understand network usage patterns
@@ -203,7 +203,7 @@ If you find this tool useful, please consider giving it a star on GitHub!
 - **Compliance Auditing**: Generate detailed network reports
 - **Forensic Analysis**: Investigate network incidents
 
-## 🌍 Geolocation API Configuration
+## Geolocation API Configuration
 
 ### Important: HTTP vs HTTPS API Access
 
@@ -215,7 +215,7 @@ If you find this tool useful, please consider giving it a star on GitHub!
 
 ### Configuration Options
 
-#### Option 1: Keep HTTPS (Recommended for Sensitive Data) 🔒
+#### Option 1: Keep HTTPS (Recommended for Sensitive Data)
 ```python
 # Current setting in pcap_analyzer.py (line ~75)
 response = requests.get(f"https://ip-api.com/json/{ip}", timeout=2)
@@ -241,7 +241,7 @@ For most users: **Use HTTP version** since IP addresses are not highly sensitive
 
 To modify: Edit line ~75 in `pcap_analyzer.py` and change `https://` to `http://`
 
-## ⚠️ Notes
+## Notes
 
 - Geolocation requests may take time for large numbers of public IPs
 - Some features require internet connectivity (geolocation)
@@ -249,7 +249,7 @@ To modify: Edit line ~75 in `pcap_analyzer.py` and change `https://` to `http://
 - Large PCAP files may require significant processing time
 - Analysis progress is displayed during processing
 
-## 🤝 Example Output
+## Example Output
 
 ```
 🔍 SNB PCAP Analyzer v1.0 - Professional Network Analysis Tool
@@ -287,11 +287,11 @@ Suspicious activities detected: 23
   • Multiple Failed Connections - 8: 2 incidents
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Scapy**: For the powerful packet analysis capabilities
 - **Matplotlib**: For visualization features
@@ -304,4 +304,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </div>
 
 <div align="center">
-Made with ❤️ by SNB | Happy Network Analysis!🎉 </div>
+Powered by SNB | Simplifying Network Analysis for Everyone </div>
