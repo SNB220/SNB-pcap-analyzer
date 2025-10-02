@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="SNB PCAP Analyzer Logo" width="400">
+  <img src="assets/SNB Pcap Analyzerbg.png" alt="SNB PCAP Analyzer Logo" width="400">
   
   # SNB PCAP Analyzer 🔍
   
