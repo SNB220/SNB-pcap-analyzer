@@ -299,9 +299,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Community**: For feedback and contributions
 
 ---
-
-**Made with ❤️ by SNB** | **Happy Network Analysis!** 🎉
-
+<div align="center">
+Made with ❤️ by SNB | Happy Network Analysis!🎉 </div>
 <div align="center">
   <img src="assets/SNB Pcap Analyzerbg.png" alt="SNB PCAP Analyzer Logo" width="200">
 </div>
