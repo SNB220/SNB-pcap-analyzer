@@ -12,7 +12,7 @@
 
 ## Features
 
-###  **Core Analysis Capabilities**
+### Core Analysis Capabilities
 
 1. ** Protocol Analysis**
    - Detailed breakdown of all protocols (TCP/UDP/ICMP/ARP/etc.)
@@ -223,7 +223,7 @@ response = requests.get(f"https://ip-api.com/json/{ip}", timeout=2)
 - **Pros**: Secure encrypted API calls
 - **Cons**: Geolocation feature won't work with free service
 
-#### Option 2: Use HTTP for Working Geolocation 🌍
+#### Option 2: Use HTTP for Working Geolocation
 ```python
 # Change line ~75 in pcap_analyzer.py to:
 response = requests.get(f"http://ip-api.com/json/{ip}", timeout=2)
