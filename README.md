@@ -118,8 +118,7 @@ python pcap_analyzer.py --no-geo --no-viz -o report.csv your_file.pcapng
 
 ### Terminal Output
 <div align="center">
-  <img src="assets/Terminal_ot.png" alt="Terminal_ot" width="500"/> 
-  <img scr="assets/Terminal_ot_svc_png_report.png" alt="Terminal_ot width="500"/>
+  <img src="assets/Terminal_ot.png" alt="Terminal_ot" width="500"/>
 </div>
 
 
