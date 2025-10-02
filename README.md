@@ -117,10 +117,16 @@ python pcap_analyzer.py --no-geo --no-viz -o report.csv your_file.pcapng
 ## 📸 Screenshots
 
 ### Terminal Output
-![Terminal Analysis](assets/terminal-output.png)
+<div align="center">
+  <img src="assets/Terminal_ot.png" alt="Terminal_ot" width="500"/>
+  <img scr="assets/Terminal_ot_svc_png_report.png" width="500"/>
+</div> 
+
+
+![Terminal Analysis](assets/saved_reports.png)
 
 ### Generated Charts
-![Analysis Charts](assets/analysis-charts.png)
+![Analysis Charts](assets/pcap_analysis_charts.png)
 
 ## 📊 Output Features
 
